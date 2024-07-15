@@ -16,13 +16,13 @@ get_header();
             </div>
          </div>
          <div class="swiper_col" id="swiper_slide2">
-            <img src="/wp-content/themes/flower_theme/assets/images/f1.png" width="500px" height="500px" alt="">
+            <img src="/wp-content/themes/flower_theme/assets/images/f1.webp" width="500px" height="500px" alt="">
          </div>
 
       </div>
       <div class="swiper-slide">
          <div class="swiper_col">
-            <img src="/wp-content/themes/flower_theme/assets/images/f4.png" width="500px" height="500px" alt="">
+            <img src="/wp-content/themes/flower_theme/assets/images/f4.webp" width="500px" height="500px" alt="">
          </div>
          <div class="swiper_col">
             <h1 class="element">برای دوست خود گل هدیه بفرستید</h1>
@@ -126,10 +126,10 @@ get_header();
    <div class="item">
       <div class="product_image">
          <div id="p1_i1">
-            <img src="/wp-content/themes/flower_theme/assets/images/p2-1.jpg" width="100%" alt="">
+            <img src="/wp-content/themes/flower_theme/assets/images/p2-1.webp" width="100%" alt="">
          </div>
          <div id="p1_i2">
-            <img src="/wp-content/themes/flower_theme/assets/images/p3-1.jpg" width="100%" alt="">
+            <img src="/wp-content/themes/flower_theme/assets/images/p3-1.webp" width="100%" alt="">
          </div>
       </div>
 
@@ -141,10 +141,10 @@ get_header();
    <div class="item">
       <div class="product_image">
          <div id="p2_i1">
-            <img src="/wp-content/themes/flower_theme/assets/images/p1-2.jpg" width="100%" alt="">
+            <img src="/wp-content/themes/flower_theme/assets/images/p1-2.webp" width="100%" alt="">
          </div>
          <div id="p2_i2">
-            <img src="/wp-content/themes/flower_theme/assets/images/p11-1.jpg" width="100%" alt="">
+            <img src="/wp-content/themes/flower_theme/assets/images/p11-1.webp" width="100%" alt="">
          </div>
       </div>
       <h2>آلوئه شمعدانی</h2>
@@ -155,10 +155,10 @@ get_header();
    <div class="item">
       <div class="product_image">
          <div id="p3_i1">
-            <img src="/wp-content/themes/flower_theme/assets/images/p12-1.jpg" width="100%" alt="">
+            <img src="/wp-content/themes/flower_theme/assets/images/p12-1.webp" width="100%" alt="">
          </div>
          <div id="p3_i2">
-            <img src="/wp-content/themes/flower_theme/assets/images/p2-1.jpg" width="100%" alt="">
+            <img src="/wp-content/themes/flower_theme/assets/images/p2-1.webp" width="100%" alt="">
          </div>
       </div>
       <h2>گیاه مار</h2>
@@ -169,10 +169,10 @@ get_header();
    <div class="item">
       <div class="product_image">
          <div id="p4_i1">
-            <img src="/wp-content/themes/flower_theme/assets/images/p9-1.jpg" width="100%" alt="">
+            <img src="/wp-content/themes/flower_theme/assets/images/p9-1.webp" width="100%" alt="">
          </div>
          <div id="p4_i2">
-            <img src="/wp-content/themes/flower_theme/assets/images/p3-1.jpg" width="100%" alt="">
+            <img src="/wp-content/themes/flower_theme/assets/images/p3-1.webp" width="100%" alt="">
          </div>
       </div>
       <h2>همالومن</h2>

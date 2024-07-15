@@ -8,8 +8,25 @@ Version: 1.3.4
 */
 
 
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
 
-header{
+
+@font-face {
+  font-family: 'YekanBold';
+  src: url('/wp-content/themes/shop/assets/fonts/YekanBakhFaNum-Bold.ttf');
+}
+
+
+body {
+  font-family: 'YekanBold' !important;
+  overflow-x: hidden;
+  font-size: 16px;
+
+}
+
+
+
+.header{
     display: flex;
     align-content: center;
     justify-content: space-around;
@@ -420,4 +437,209 @@ min-width: 100%;
 }
 
 
+/* product tab */
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+
+.tab_container h1 {
+	color: #ccc;
+	text-align: center;
+}
+
+.tab_container a {
+  color: #ccc;
+  text-decoration: none;
+  outline: none;
+}
+
+/*Fun begins*/
+.tab_container {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 70px;
+	position: relative;
+}
+
+.tab_container input, section {
+  clear: both;
+  padding-top: 10px;
+  display: none;
+}
+
+.tab_container label {
+  font-weight: 700;
+  font-size: 18px;
+  display: block;
+  float: right;
+  width: 20%;
+  padding: 1.5em;
+  color: #757575;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: block;
+  padding: 20px;
+  background: #fff;
+  color: #999;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.tab_container .tab-content p,
+.tab_container .tab-content h3 {
+  -webkit-animation: fadeInScale 0.7s ease-in-out;
+  -moz-animation: fadeInScale 0.7s ease-in-out;
+  animation: fadeInScale 0.7s ease-in-out;
+}
+.tab_container .tab-content h3  {
+  text-align: center;
+}
+
+.tab_container [id^="tab"]:checked + label {
+  background: #fff;
+  box-shadow: inset 0 3px #00a95a;
+}
+
+.tab_container [id^="tab"]:checked + label .fa {
+  color: #0CE;
+}
+
+label .fa {
+  font-size: 1.3em;
+  margin: 0 0.4em 0 0;
+}
+
+/*Media query*/
+@media only screen and (max-width: 900px) {
+  label span {
+    display: none;
+  }
+  
+  .tab_container {
+    width: 98%;
+  }
+}
+
+/*Content Animation*/
+@keyframes fadeInScale {
+  0% {
+  	transform: scale(0.9);
+  	opacity: 0;
+  }
+  
+  100% {
+  	transform: scale(1);
+  	opacity: 1;
+  }
+}
+
+.no_wrap {
+  text-align:center;
+  color: #0ce;
+}
+.link {
+  text-align:center;
+}
+
+
+.product_Feedback > .fa-star{
+color: #f6d30c;
+}
+.product_Feedback > .comment{
+  color: #19bfd3;
+  }
+
+
+  .product_color{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+
+  .product_color .black {
+    background-color: #000;
+    width:60px;
+    height:60px;
+  }
+
+  .product_color .yellow {
+    background-color: #f6d30c;
+    width:60px;
+    height:60px;
+  }
+
+
+  .product_color .blue {
+    background-color: #0000ff;
+    width:60px;
+    height:60px;
+  }
+
+.product_property_child {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.property_item {
+  flex: 1;
+  min-width: 100px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+@media (max-width: 1100px) {
+  .product_property_child {
+      flex-direction: row-reverse;
+  }
+
+  .property_item {
+      flex: 1;
+  min-width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+.product_property_child {
+flex-direction: column;
+}
+
+.property_item {
+min-width: 100%;
+}
+}
+
+
+.product_Warning{
+  color: #ff0000;
+}
 
