@@ -278,13 +278,17 @@ li{
 }
 
 .woocommerce-products-header {
-    width: 90%;
-    border: 1px solid #eee;
+    width: 94%;
+    border: 1px solid #ccc;
     border-radius: 25px;
     margin: 0 3%;
-    padding-right: 10%;
+    padding: 2%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between ;
 }
-
+ 
 .cat_item {
     flex: 1;
     width: 250px;
@@ -294,5 +298,18 @@ li{
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
+}
+
+
+.woocommerce-notices-wrapper {
+    display: none;
+}
+
+.woocommerce-products-header__title.page-title {
+    background-color: #198754;
+    color: #fff;
+    text-align: center;
+    padding-block: 50px;
+    margin-bottom: 50px;
 }
 
